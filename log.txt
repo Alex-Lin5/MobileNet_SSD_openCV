@@ -1,0 +1,46 @@
+Mon 03/28/2022 22:22:34.87
+[INFO] loading model...
+[INFO] computing object detections...
+Traceback (most recent call last):
+  File "object_detector.py", line 34, in <module>
+    detections = net.forward()
+cv2.error: OpenCV(4.5.5) D:\Build\OpenCV\opencv-4.5.5\modules\dnn\src\layers\batch_norm_layer.cpp:49: error: (-215:Assertion failed) blobs.size() >= 2 in function 'cv::dnn::BatchNormLayerImpl::BatchNormLayerImpl'
+
+22:29:19.41
+[INFO] loading model...
+[INFO] computing object detections...
+Traceback (most recent call last):
+  File "object_detector.py", line 34, in <module>
+    detections = net.forward()
+cv2.error: OpenCV(4.2.0) C:\projects\opencv-python\opencv\modules\dnn\src\layers\batch_norm_layer.cpp:47: error: (-215:Assertion failed) blobs.size() >= 2 in function 'cv::dnn::BatchNormLayerImpl::BatchNormLayerImpl'
+
+Fri 04/01/2022 16:26:16.45
+(base) C:\MYFILE\CSE671\Homework6\question1>python object_detector.py --prototxt SSD.prototxt --model MobileNetSSD_deploy.caffemodel --image car-g928bc75b5_1920.jpg
+[INFO] loading model...
+[INFO] computing object detections...
+
+[INFO] bicycle: 97.29%
+[INFO] car: 99.50%
+[INFO] car: 99.33%
+[INFO] car: 99.13%
+[INFO] car: 98.72%
+[INFO] car: 98.20%
+[INFO] car: 96.66%
+[INFO] car: 95.87%
+[INFO] car: 92.08%
+[INFO] car: 91.82%
+[INFO] car: 89.21%
+[INFO] car: 84.69%
+[INFO] car: 83.67%
+[INFO] car: 82.64%
+[INFO] car: 77.60%
+[INFO] car: 76.69%
+[INFO] car: 69.53%
+[INFO] car: 68.95%
+[INFO] car: 54.62%
+[INFO] car: 46.37%
+[INFO] person: 65.35%
+[INFO] person: 52.60%
+[INFO] person: 47.53%
+[INFO] person: 47.37%
+[INFO] person: 47.23%
